@@ -53,12 +53,13 @@ html, body{
     height: 36px;
     background-color: #fff;
     border-radius: 2px;
+    box-shadow: 1px 1px 2px #a3a3a3;
 }
 .search-sec input{
     width: 100%;
     height: 100%;
     font-size: 0.85rem;
-    color: #e5e5e5;
+    color: #fff;
    margin: 0px 15px;
     border: none;
     outline: none;
@@ -69,3 +70,19 @@ html, body{
     font-weight: 800;
     color: #2874F0;
 }
+.login-btn{
+    height: 31px;
+    width: 122px;
+    background-color: #fff;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 2px; */
+}
+.login-btn a{
+    color: #2874F0;
+    text-decoration: none;
+    font-size: 16px;
+}
+
